@@ -222,4 +222,3 @@ setTimeout(() => {
   const ad = document.getElementById("ads_left");
   ad.remove();
 }, 600)
-
