@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name          msg_parser-vk.com
-// @namespace     Messages Parser For Vk.com
+// @namespace     Parser For Vk.com Messages
 // @match         https://vk.com/im
 // @match         https://vk.com/im?sel=*
 // @grant         GM_listValues
 // @grant         GM_setValue
 // @grant         GM_getValue
+// @license 	  MIT
 // @run-at        document-end
 // @version       1.0
 // @author        suffermuffin

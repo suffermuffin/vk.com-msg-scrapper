@@ -19,4 +19,6 @@ follows:
 | ----- | ------- | ------------------------------- |
 
 With this kind of dataset it will be possible to create your own LLM by training transformer. Please be cautious and 
-consider using such dataset as a private learning tool for obvious reasons. 
+consider using such dataset as a private learning tool for obvious reasons.
+
+Link for Violent Monkey script: https://openuserjs.org/scripts/suffermuffin/msg_parser-vk.com
