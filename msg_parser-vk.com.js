@@ -39,7 +39,6 @@ class vkParser{
 
     const pr = new Promise((resolve, reject) => {
 
-
         setTimeout(() => {
         if (this.chatWin.scrollTop === 0) {resolve(true);}
         this.chatWin.scroll(0, 0);
@@ -144,7 +143,7 @@ class vkParser{
     return pr
   }
 
-  /** Main function */
+  /** Main method */
   async parse(){
 
     let chatList = document.getElementsByClassName("nim-dialog");
@@ -160,7 +159,7 @@ class vkParser{
     for (let [index, chat] of chatList.slice(startingChat).entries()){
       chat.click()
       let valid = await this.checkUrl()
-      if (valid === true) {
+      if (valid) {
         await this.scroller()
         .then(() => this.scrapeTxt())
       }
